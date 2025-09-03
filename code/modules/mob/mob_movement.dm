@@ -213,6 +213,9 @@
 	//		popup.close()
 			mob << browse(null, "window=[X]")
 			open_popups -= X
+
+	mob.last_move_time = world.time // REDMOON ADD - comfy_state
+
 /**
   * Checks to see if you're being grabbed and if so attempts to break it
   *
